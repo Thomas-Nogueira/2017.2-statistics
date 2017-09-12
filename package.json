@@ -1,0 +1,26 @@
+{
+  "name": "statistics",
+  "version": "0.0.1",
+  "description": "Implementação do caso de teste descrito por Guilherme e ??",
+  "main": "app/statistics.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teste-de-software/2017.2-statistics.git"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "L A Minora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teste-de-software/2017.2-statistics/issues"
+  },
+  "homepage": "https://github.com/teste-de-software/2017.2-statistics/",
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "should": "^13.0.1"
+  }
+}
