@@ -53,4 +53,9 @@ describe('Testes de statistics.js', function() {
     it('4o caso de teste - Classes 5', function() {
         (function() { statistics(23) }).should.throw('parameter');
     });
+
+    it('5o caso de teste - Classes 6', function() {
+        (function() { statistics('7 5') }).should.throw('parameter');
+    });
+
 });
