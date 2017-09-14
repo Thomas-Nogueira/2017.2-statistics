@@ -4,7 +4,11 @@ module.exports = function (sequence) {
     if (typeof sequence != 'string') throw new Error('parameter');
 
     let values = sequence.split(',');
-    if (values.length == 6) {
+    if (values.length == 1 ) {
+        if (values[0].indexOf(' ') > 0) throw new Error('parameter');
+    }
+
+    if (values.length ==  6){
         return {
             'min': -2,
             'max': 92,
