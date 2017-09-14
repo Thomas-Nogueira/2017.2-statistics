@@ -34,4 +34,19 @@ describe('Testes de statistics.js', function() {
         result.should.have.property('count', wait.count);
         result.should.have.property('avg', wait.avg);
     });
+
+    it('3o caso de teste - Classes 1, 2, 3, 4', function() {
+        let wait = {
+            'min': 6,
+            'max': 6,
+            'count': 1,
+            'avg': 6};
+
+        let result = statistics('6');
+
+        result.should.have.property('min', wait.min);
+        result.should.have.property('max', wait.max);
+        result.should.have.property('count', wait.count);
+        result.should.have.property('avg', wait.avg);
+    });
 });
