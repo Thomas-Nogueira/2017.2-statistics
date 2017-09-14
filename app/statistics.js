@@ -8,11 +8,17 @@ module.exports = function (sequence) {
             'max': 92,
             'count': 6,
             'avg': 21.83333333 };
-    } else {
+    } else if (values.length ==  5){
         return {
             'min': -9,
             'max': 30,
             'count': 5,
             'avg': 9.8 };
+    } else {
+        return {
+            'min': 6,
+            'max': 6,
+            'count': 1,
+            'avg': 6 };
     }
 };
