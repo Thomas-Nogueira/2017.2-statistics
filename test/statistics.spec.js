@@ -49,4 +49,8 @@ describe('Testes de statistics.js', function() {
         result.should.have.property('count', wait.count);
         result.should.have.property('avg', wait.avg);
     });
+
+    it('4o caso de teste - Classes 5', function() {
+        (function() { statistics(23) }).should.throw('parameter');
+    });
 });

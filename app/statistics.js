@@ -1,6 +1,8 @@
 'use strict';
 
 module.exports = function (sequence) {
+    if (typeof sequence != 'string') return {};
+    
     let values = sequence.split(',');
     if (values.length == 6) {
         return {
