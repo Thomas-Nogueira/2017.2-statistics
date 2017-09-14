@@ -14,10 +14,10 @@ describe('Testes de statistics.js', function() {
 
         let result = statistics('6, 9, 15, -2, 92, 11');
 
-        result.should.have.property('min').with.value(wait.min);
-        result.should.have.property('max').with.value(wait.max);
-        result.should.have.property('count').with.value(wait.count);
-        result.should.have.property('avg').with.value(wait.avg);
+        result.should.have.property('min', wait.min);
+        result.should.have.property('max', wait.max);
+        result.should.have.property('count', wait.count);
+        result.should.have.property('avg', wait.avg);
     });
 
 });
